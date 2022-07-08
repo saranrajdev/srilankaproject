@@ -1,0 +1,66 @@
+
+header.topbar{
+    background-color: var(--background-color);
+    color: var(--bg-white);
+    transition: all 0.2s;
+}
+
+
+
+.topbar .btn-square{
+    color: var(--bg-white) !important;
+}
+
+
+.brand-logo{
+    background-color: #fff;
+    border-radius: 1.5rem;
+    display: block;
+    padding: 0.5em;
+    position: absolute;
+    top: 0;
+
+}
+.fixed-top{
+   box-shadow: 0 2px 2px -2px rgba(0,0,0,.2) !important;
+
+
+
+}
+.topdbar-logo-a{
+     box-shadow: 0 2px 2px -2px rgba(0,0,0,.2) !important;
+}
+
+
+nav{
+    height: 80px;
+}
+
+.dropdown-menu{
+    border-top: 3px solid var(--background-color);
+ 
+    margin-top:20px !important;
+    border-radius: 0px !important;
+}
+.navbar-nav .nav-link.active{
+   color: #202428 !important;
+}
+
+@media (max-width: 997px) {
+    .topbar.row > *{
+        width: auto;
+    }
+    .navbar-collapse{
+    background-color: var(--bg-white) ;
+    padding: 0px 10px 0px 10px;
+    position: relative;
+    top:30px
+}
+}
+@media (min-width:997px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.8rem !important;
+    padding-left:0.8rem !important;
+}
+    
+}

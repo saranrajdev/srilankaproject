@@ -1,0 +1,17 @@
+{
+  "name": "srilankaproject",
+  "version": "1.0.0",
+  "description": "trust",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/roboto": "^4.5.7",
+    "bootstrap": "^5.2.0-beta1",
+    "bootstrap-icons": "^1.8.3",
+    "slick-carousel": "^1.8.1"
+  }
+}
